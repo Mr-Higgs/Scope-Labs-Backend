@@ -10,32 +10,32 @@ app.use(cors());
 
 //Get videos by user_id   
 app.get('/api/videos', async (req, res) => {
-
+//add try-catch error handling
 });
 
 //Create a new video
 app.post('/api/videos', async (req, res) => {
-
+//add try-catch error handling
 });
 
 //Upadate video
 app.put('/api/videos', async (req, res) => {
-
+//add try-catch error handling
 });
 
 //Get single video by video_id
 app.get('/api/videos/single', (req, res) => {
-
+//add try-catch error handling
 });
 
 //Get comments for video
 app.get('/api/videos/comments', (req, res) => {
-
+//add try-catch error handling
 });
 
 //create a new comment for video
 app.post('/api/videos/comments', (req, res) => {
-
+//add try-catch error handling
 });
 
 
