@@ -3,7 +3,7 @@ const app = express();
 const cors = require('cors');
 const axios = require('axios');
 const bodyParser = require('body-parser');
-const PORT = 5000;
+const PORT = 3000;
 const EXT_API_BASE_URL = 'https://take-home-assessment-423502.uc.r.appspot.com/api';
 
 app.use(bodyParser.json());
